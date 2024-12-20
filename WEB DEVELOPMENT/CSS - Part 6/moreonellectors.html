@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About Sellectors</title>
+    <style>
+/* .boxes :first-child{
+    color: aqua;
+} */
+/* .box::first-line{
+    color: rgb(193, 199, 22);
+} */
+.boxes *{
+    color: brown;
+    border: 2px solid pink;
+}
+[data-color="primary"]{ 
+    margin-top: 100px;
+    padding: 2px 10px 10px 10px;
+}
+.boxes::before{
+    content: "CSS IS TOO COOL";
+    color: pink;
+}
+.boxes::selection{
+    color: purple;
+}
+input::placeholder{
+    color: blueviolet;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quos aliquam optio blanditiis. Et saepe, sed accusantium deserunt ullam incidunt nesciunt quasi dolore repudiandae voluptate officia alias beatae. Minima, quae?<div data-color="primary"  class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsum labore libero ab quaerat ipsa commodi. Quis aliquid voluptate placeat ducimus odit necessitatibus rem. Inventore, molestias suscipit odio eligendi, natus ea nihil sed cum saepe accusantium veritatis placeat maiores, impedit necessitatibus soluta reiciendis pariatur rem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum maiores adipisci atque voluptates consectetur soluta voluptate consequatur eos asperiores voluptatum? Porro, mollitia deserunt.
+    </div>
+    <div class="box">im a box</div>
+    <div class="box">im a box</div>
+    <label for="name" >Enter your name </label>
+<input type="text" id="name" placeholder="Type your name here"></div>
+</body>
+</html>

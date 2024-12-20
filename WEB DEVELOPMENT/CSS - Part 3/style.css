@@ -1,0 +1,18 @@
+.yellow{
+    background-color: yellow;
+}
+
+.cred{
+    background-color: red;
+}
+.cpurple{
+    background-color: purple;
+}
+h1{
+    background-color: green important;
+}
+/* Attribute Sellectors */
+[data-x=a] {
+    color: brown;
+    border: 2px solid black;
+}

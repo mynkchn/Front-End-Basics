@@ -1,0 +1,59 @@
+.box{
+    background-color: blue;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.box1{
+    color: yellow;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid pink;
+    height: 200px;
+    box-sizing: border-box;
+}
+.box2{
+    color: rgb(232, 223, 223);
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid pink;
+    height: 200px;
+   box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: 50px;
+    
+}
+p{
+    font-family: "Poppins";
+
+line-height: 1.5;
+
+    /* font-style: italic; */
+    font-weight: 100;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    text-indent: 45px;
+}
+.lorem{
+    border: 2px solid saddlebrown;
+   /* width: 45px; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break:break-all;
+
+}

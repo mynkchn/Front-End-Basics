@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <style>
+        .container{
+            display: flex;
+
+
+        }
+.box{
+    padding: 10px;
+    height: 34px;
+    width: 45px;
+    border: 2px solid black;
+    margin: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box box1" id="js">1</div>
+    <div class="box box2">2</div>
+    <div class=" box box3">3</div>
+    <div class=" box box4">4</div>
+    <div class=" box box5">5</div>
+    </div>
+    
+<script>
+document.body.firstChild
+let e= document.getElementsByClassName("box")
+e[2].style.backgroundColor="red"
+document.getElementById("js").style.backgroundColor="green"
+
+document.querySelectorAll(".box").forEach(element => {
+    element.style.backgroundColor="pink"
+    
+ });
+document.getElementsByTagName("div")
+// Check for the match
+console.log(e[1].matches(".box2"))
+// Give closet element
+e[3].closest(".box")
+// Contains Check wether it contains or not
+ document.querySelector(".container").contains("e[2]")
+
+</script>
+</body>
+</html>

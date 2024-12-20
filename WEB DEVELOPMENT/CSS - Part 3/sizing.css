@@ -1,0 +1,40 @@
+.box{
+    
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 80vw;
+    margin: 23px auto;
+    background-color: aqua;
+}
+/* VW is viewport  */
+.container  {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100vw;
+    margin: 23px auto;
+    min-height: 50vh;
+    background-color: aqua;
+}
+/* REM returns the font size double of root size meanwhile EM returns the size of by default of given font size */
+.container > div  {
+    font-size: 2rem;
+    width: 50%;
+border: 1px solid yellow;
+
+}
+/* Html is a root element */
+.container > div > div
+{
+    border: 2px solid brown;
+    width: 50%;
+}
+    html{
+    font-size: 10px;
+}
+/* VMIN AND VMAX ARE SIMILAR TO VH AND VW USED WHEN WE DESIGN FOR DIFFERENT ASPECT RATIOS LIKE THE VISUALS OF WEBSITE IN PHONE DIFFERENT IN DESKTOP */
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In the world of css</title>
+    <link rel="stylesheet" href="style.css">
+    <!--This is internal CSS-->
+     <!--In these the changes are made in all the h1 tags to avoid that problem we use selectors in css -->
+    <style>
+       
+     h1{ background-color: aqua;
+    color: red;
+    }
+    /* Class Selector*/
+    .color{
+        background-color:yellow;
+    }
+    /* ID selector*/
+    #example{
+        color: blue;
+        background-color: antiquewhite;
+    }
+    /*Child Selector*/
+    div > p {
+       color: brown;
+    }
+
+    /*Descendant Selector*/
+    div  p {
+       color: brown;
+   }
+/*Universal Selector*/
+*{
+    margin: 10px;
+   }
+/* Pesudo Selector */
+a:visited{
+    color:blue;
+}
+a:link{
+color: pink;
+}
+a:active{
+    background-color: blueviolet;
+}
+a:hover{
+    color: blanchedalmond;
+}
+p:first-child{
+    background-color: violet;
+}
+    </style>
+</head>
+<body>
+    <h1>Lets roll out css</h1>
+    <div class="color"><label for="Search">Search bar</label>
+    <input type="text" id="Search" placeholder="Search">
+    </div>
+    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a quisquam quod laborum consectetur, minima tenetur beatae doloremque necessitatibus suscipit, culpa incidunt qui velit. Vel, ratione voluptatem dolores corrupti nisi natus fuga qui alias aut.
+    </p></div>
+    <a  target="_blank"  href="https://WWW.google.com">GO TO GOOGLE</a>
+    <hr>
+    <!--This is Inline CSS-->
+    <h1 id="example">This is about selectors in css</h1>
+    <footer style="color: blue;">&copy; Copyrights </footer>
+</body>
+</html>
